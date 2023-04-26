@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --white: #FFF;
+  --bg_gray: #E9E9E9;
+  --divisor_gray:#928F8F;
+  --text_gray: #7C8080;
+  --green:#398168;
+  --light_green: #53BC98;
+  --dark_green:#3B574E;
+  --text_dark_green: #194134;
+}
+
+@media (max-width:1080px){
+  html{
+    font-size: 93.75%; //15px
+  }
+}
+
+@media (max-width:720px){
+  html{
+    font-size: 87.5%; //14px
+  }
+}
+
+body{
+  background: var(--white);
+}
+
+body, input, textarea, select, button{
+  font:400 1rem 'Poppins', sans-serif;
+}
+
