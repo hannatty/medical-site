@@ -1,0 +1,28 @@
+.general_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80vw;
+    height: 50vh;
+}
+
+.general_container h1{
+    font-weight: bold;
+    color: var(--text_dark_green);
+    font-size: 2.5rem;
+}
+
+.logo_line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-top:4rem;
+    margin-bottom: 5rem;
+}
+
+.logo_style{
+    width: 8rem;
+    height: 4rem;
+    margin: 0 1.5rem;
+}
