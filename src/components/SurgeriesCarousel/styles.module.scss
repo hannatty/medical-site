@@ -1,4 +1,110 @@
-.bg_style{
+.SurgeriesContainer {
+  max-width: 79vw;
+  color: var(--dark_green);
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.SurgeriesTitle {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  font-size: 2.5rem;
+  color: var(--white);
+  text-align:center
+}
+
+.cardsContainer {
+  margin: 0 auto;
+  width: 60%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  font-size: 1rem;
+}
+
+.card {
+  width: 20%;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-size: 1.2rem;
+}
+
+.cardImage {
+  width: 50%;
+}
+
+
+.cardsRepoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 ;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.cardRepo {
+  background: var(--green);
+  width: 25%;
+  height: 80%;
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.cardRepoSummary{
+  color: #fff;
+  font-size: 1.2rem;
+  padding-bottom: 0.2rem;
+  margin-top: 0.1rem;
+}
+
+.cardRepoText {
+  color: #fff;
+  text-overflow: "…";
+  font-size: 1.2rem;
+  font-weight: lighter;
+  padding: 0.5rem;
+}
+
+.cardRepoImage {
   width: 80%;
-  height: 10rem;
+  height: 80%;
+}
+
+
+.cardImgContainer {
+  gap: 3;
+  width: 50%;
+  height: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media(max-width: 765px) {
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    width: 320px;
+  }
+
+  .cardRepo {
+    width: 3200px;
+  }
+
 }

@@ -1,0 +1,12 @@
+.widget {
+    position: fixed;
+    top: 10rem;
+    right: 11.5rem;
+    z-index: 9999;
+    cursor: pointer;
+    .widget_icon {
+      width: 5rem;
+      height: 5rem;
+    }
+  }
+  

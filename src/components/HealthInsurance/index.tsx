@@ -18,7 +18,7 @@ import unimed from '../../../public/images/HealthInsuranceLogo/unimed2.png'
 export function HealthInsurance(){
     return(
         <div className={styles.general_container}>
-            <h1>Planos de Saúde Aceitos</h1>
+            <h1>Planos de Saúde</h1>
             <section className={styles.logo_line}>
                 <Image src={amil} alt="logo Amil" className={styles.logo_style} />
                 <Image src={bradesco} alt="logo Bradesco" className={styles.logo_style} />

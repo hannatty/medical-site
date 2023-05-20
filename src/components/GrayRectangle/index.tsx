@@ -20,9 +20,11 @@ const GrayRectangle: React.FC<GrayRectangleProps> = ({ width, height}) => {
             <p>"Desde o início da faculdade de medicina, me encantei com a possibilidade de resolver 
                   os problemas das pessoas através de cirurgias. Participei dos mais simples aos mais 
                   complexos procedimentos, sempre buscando o mais alto grau de sofisticação no tratamento 
-                  cirúrgico dos  meus pacientes."
-              </p>
-            <button><a> Saiba Mais </a></button>
+                  cirúrgico dos  meus pacientes.
+            </p>
+            <p>Sou formado pela Universidade Federal de Pernambuco, e cirurgião de cabeça e pescoço com Fellowship em Microcirurgia Reconstrutiva pelo Hospital A.C. Camargo Cancer Center - São Paulo - SP. 
+                Sou ainda membro efetivo da Sociedade Brasileira de Cirurgia de Cabeça e Pescoço, o que evidencia meu compromisso com a excelência e o constante aprimoramento profissional."
+            </p>
           </div>
       </div>
     </div>

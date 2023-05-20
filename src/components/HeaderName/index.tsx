@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Divider from '../Divider';
 import mystyles from './styles.module.scss';
-import styles from '../Header/styles.module.scss';
+import styles from '../../styles/styles.module.scss';
 import logo from '../../../public/logo.png';
 import detail from '../../../public/images/detail.png';
 

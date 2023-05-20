@@ -1,17 +1,17 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/home.module.scss';
-import Link from 'next/link';
 import header_styles from '../styles/styles.module.scss';
 import { Inter } from 'next/font/google';
 import GreenRectangle from '../components/GreenRectangle';
 import GrayRectangle from '../components/GrayRectangle';
+import SurgeriesCarousel from '../components/SurgeriesCarousel';
 import Articles from './Articles';
 import { HealthInsurance } from '../components/HealthInsurance';
 import { LocationService } from './LocationService';
 import cirurgia from '../../public/images/cirurgia.png';
-import bg_surgeries from '../../public/images/BG_Carousel.png';
 import HeaderName from '../components/HeaderName';
+import Widget from '../components/Widget';
 import icon_menu from '../../public/icon_menu.png';
 
 
@@ -43,14 +43,16 @@ export default function Home() {
                     <a className={header_styles.links}  onClick={() => scrollToElement("location")}> Contato </a>
                 </nav>
                 <div className={header_styles.mobile}>
-                    <button className={styles.menu_button}>
+                    <a className={styles.menu_button}>                      
                         <Image src={icon_menu} alt="Menu" className={header_styles.menu_icon_style} />
-                    </button>
+                    </a>
                 </div>
             </div>
         </header>
-        <div id="onTop">
+        <div id="onTop" className={styles.header_name_style}>
           <HeaderName />
+
+          <Widget phoneNumber="5581993524086" message="Olá! Gostaria de agendar uma consulta." />
         </div>
         </>      
       <main className={styles.principal_container}>
@@ -59,12 +61,15 @@ export default function Home() {
             <Image src={cirurgia} alt="imagem de cirurgião durante cirurgia" className={styles.pic_style} />
             <GreenRectangle width={500} height={250}/>
           </div>
+          <div className={styles.mobile_green_rectangle}>
+            <GreenRectangle width={310} height={230}/>
+          </div>
         </div>
         <div className={styles.secondary_element} id="formation">
           <GrayRectangle width={80} height={550}/>
         </div>
         <div className={styles.bg_container} id="surgeries">
-          <Image src={bg_surgeries} alt='background com imagem' className={styles.bg_style} />
+          <SurgeriesCarousel />
         </div>
         <div id="articles">
           <Articles />
