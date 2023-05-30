@@ -92,19 +92,25 @@
 }
 
 @media(max-width: 765px) {
+  .SurgeriesContainer{
+    width: 100vh;
+    align-items: center;
+  }
+
   .cardsContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+  
 
   .card {
     width: 320px;
   }
 
   .cardRepo {
-    width: 3200px;
+    width: 320px;
   }
 
 }

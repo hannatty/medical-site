@@ -13,6 +13,7 @@ import cirurgia from '../../public/images/cirurgia.png';
 import HeaderName from '../components/HeaderName';
 import Widget from '../components/Widget';
 import icon_menu from '../../public/icon_menu.png';
+import main_pic from '../../public/images/main_pic.jpeg'
 
 
 
@@ -58,11 +59,11 @@ export default function Home() {
       <main className={styles.principal_container}>
         <div className={styles.secondary_container}>
           <div className={styles.green_rectangle_container}>
-            <Image src={cirurgia} alt="imagem de cirurgião durante cirurgia" className={styles.pic_style} />
+            <Image src={main_pic} alt="Foto Dr. Carlos" className={styles.pic_style} />
             <GreenRectangle width={500} height={250}/>
           </div>
           <div className={styles.mobile_green_rectangle}>
-            <GreenRectangle width={310} height={230}/>
+            <GreenRectangle width={310} height={250}/>
           </div>
         </div>
         <div className={styles.secondary_element} id="formation">

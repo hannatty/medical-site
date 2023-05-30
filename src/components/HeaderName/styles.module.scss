@@ -49,7 +49,7 @@
 .mobile {
     display: none;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 765px) {
       display: flex;
       flex-direction: column;
       align-items: center;

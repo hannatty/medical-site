@@ -1,0 +1,43 @@
+.mobile_styles {
+    display: none;
+
+    @media screen and (max-width: 765px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .header_professional_name_mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem;
+    }
+
+    .mobile_section_1{
+        padding: 2rem;
+        max-width: 30%;
+      }
+      
+      .mobile_section_2{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        max-width: 50%;
+        padding: 3.5rem;
+        margin-top: 1rem;
+      }
+      
+      .mobile_section_2 p{
+        font-size: 1rem;
+        margin-top: 1rem;
+        color: var(--text_gray);
+      }
+      
+      .mobile_bio_pic_style{
+        width: 275px;
+        height: 488px;
+      }
+      
+}

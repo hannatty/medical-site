@@ -27,7 +27,7 @@ const GrayRectangle: React.FC<GrayRectangleProps> = ({ width, height}) => {
             </p>
           </div>
       </div>
-    </div>
+  </div>
   );
 };
 

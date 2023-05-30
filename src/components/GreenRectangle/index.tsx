@@ -9,8 +9,8 @@ interface GreenRectangleProps {
 const GreenRectangle: React.FC<GreenRectangleProps> = ({ width, height}) => {
   return (
     <div className={styles.green_rectangle} style={{ width, height }}>
-     <h1>Experiência em Microcirurgia Reconstrutiva </h1>
-     <h3>Atendimento nos principais hospitais do Recife </h3>
+     <h1>Experiência em Cirurgias de alta complexidade, Fellowship em microcirurgia reconstrutiva e Certificação em cirurgia robótica </h1>
+     <h3>Estou junto contigo para enfrentar tumores de cabeça e pescoço. </h3>
     </div>
   );
 };

@@ -39,17 +39,20 @@
   .green_rectangle h1{
     margin: 15px 18px 0;
     color: var(--white);
-    font-weight: 300;
+    font-weight: bold;
+    font-size: 1.25rem;
   }
 
   .green_rectangle h3{
     margin: 15px 18px 0;
     color: var(--white);
     font-weight:lighter;
+    font-size: 1rem;
   } 
 
   .pic_style{
-    size: 40%;
+    width: 25rem;
+    height: 44rem;
   }
 
 .gray_rectangle_container{
@@ -162,13 +165,13 @@
 .mobile_green_rectangle {
   display: none;
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 765px) {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
     margin-top: 9rem;
     margin-bottom: 3rem;
-    margin-right: 15rem;
   }
 }
 
