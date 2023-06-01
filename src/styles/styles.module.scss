@@ -1,33 +1,40 @@
 .headerContainer {
-  height: 6rem;
+  height: 2rem;
   display: flex;
   align-items: center;
+  background-color: var(--white);
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 
   .headerContent {
+    background-color: var(--white);
     max-width: 1920px;
-    height: 5rem;
-    margin: 3rem auto;
-    padding: 0 2rem;
+    height: 8rem;
+    margin: 2rem auto;
+    padding: 0.8rem 2rem 2rem;
     display: flex;
     align-items: center;
 
     .nav_bar {
+      background-color: var(--white);
       height: 6rem;
       display: flex;
       justify-items: center;
 
-      @media screen and (max-width: 768px) {
-        display: none;
-      }
-
       a {
+        background-color: var(--white);
+        cursor: pointer;
         display: inline-block;
         position: relative;
-        padding: 0 0.5rem;
+        padding: 0 5rem;
         margin-top: 3rem;
-        height: 6rem;
+        font-size: 15px;
+        height: 4rem;
         line-height: 6rem;
-        color: var(--text_dark_green);
         text-decoration: none;
 
         & + a {
@@ -48,19 +55,18 @@
     .mobile {
       display: none;
 
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 765px) {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 30px;
-        padding: 5px;
+        align-content: center;
+        margin-top: 5rem;
+        width: 100vw;
+        background-color: var(--white);
       }
 
       .menu_button {
-        width: 50px;
         height: 50px;
-        border: none !important;
-        background-color: inherit;
       }
 
       .menu_icon_style {

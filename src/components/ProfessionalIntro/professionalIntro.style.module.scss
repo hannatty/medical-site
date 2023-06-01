@@ -1,0 +1,13 @@
+
+.professionalIntro_container{
+    padding-top: 10px;
+}
+
+.mobile_green_rectangle {
+    display: none;
+  
+  @media screen and (max-width: 765px) {
+      display: flex;
+    }
+  }
+  

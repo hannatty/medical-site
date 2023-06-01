@@ -1,12 +1,12 @@
 .divider {
-  height: 5px;
-  border-top: 10px solid var(--divisor_gray);
-  margin-top: 5px;
-  margin-bottom: 5px;
+  border-top: 0.1rem solid var(--divisor_gray);
+  width: 80%;
+  border-radius: 25px;
+}
 
-  h4{
-    color: var(--divisor_gray);
+@media(max-width: 765px) {
+  .divider {
+    border-top: 0.2rem solid var(--divisor_gray);
+    width: 100%;
   }
-  }
-
-  
+}

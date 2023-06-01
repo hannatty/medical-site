@@ -1,0 +1,104 @@
+.master_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.principal_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.green_rectangle_container{
+  position: relative;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.gray_rectangle_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.gray_rectangle{
+  background-color:var(--bg_gray);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.section_1{
+  padding: 2rem;
+  max-width: 30%;
+}
+
+.section_2{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  max-width: 50%;
+  padding: 3.5rem;
+  margin-top: 1rem;
+}
+
+.section_2 p{
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: var(--text_gray);
+}
+
+.bio_pic_style{
+  width: 275px;
+  height: 488px;
+}
+
+.kkk{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+}
+
+.secondary_element{
+  margin-top: 5rem;
+  margin-bottom: 0;
+}
+
+.surgeries_container{
+  margin-top: 56px;
+  background-color: var(--dark_green);
+  flex-direction: column;
+  justify-content: space-between;
+  
+  @media screen and (max-width: 765px) {
+    width: 100% !important;
+  }
+}
+
+.bg_style{
+  width: 79vw;
+  height: 30rem;
+  display: inline;
+}
+
+.link_style{
+  text-decoration: none;
+}
+
+
+.geral_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header_name_style{
+  margin-top: 0.5rem;
+}
