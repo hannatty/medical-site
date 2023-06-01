@@ -91,10 +91,16 @@
   align-items: center;
 }
 
+// MOBILE
+
 @media(max-width: 765px) {
   .SurgeriesContainer{
-    width: 100vh;
+    max-width: 765px;
     align-items: center;
+  }
+
+  .SurgeriesTitle{
+    font-size: 1.5rem;
   }
 
   .cardsContainer {
@@ -104,7 +110,6 @@
     align-items: center;
   }
   
-
   .card {
     width: 320px;
   }
