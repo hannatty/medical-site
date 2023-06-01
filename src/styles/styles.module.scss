@@ -6,6 +6,9 @@
   position: sticky;
   top: 0;
   z-index: 9999;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 
   .headerContent {
     background-color: var(--white);
@@ -16,16 +19,11 @@
     display: flex;
     align-items: center;
 
-
     .nav_bar {
       background-color: var(--white);
       height: 6rem;
       display: flex;
       justify-items: center;
-
-      @media screen and (max-width: 768px) {
-        display: none;
-      }
 
       a {
         background-color: var(--white);

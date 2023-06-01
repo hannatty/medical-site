@@ -4,7 +4,6 @@
     align-items: center;
     background-color: var(--dark_green);
     max-width: 79vw;
-    height: 80vh;
     margin-bottom: 5rem;
     padding-top: 2rem;
     padding-top: 6rem;
@@ -26,6 +25,7 @@
 .article_section{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 2rem 5rem;
 }

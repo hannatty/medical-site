@@ -1,0 +1,30 @@
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #398168;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer_professional_information{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_professional_information h3{
+    font-size: 20px;
+}
+
+.footer_professional_information span{
+    font-size: 15px;
+}
+
+.footer_social_media_links{
+    margin-top: 10px;
+}
+
+.footer_icon{
+    margin-left: 20px;
+}

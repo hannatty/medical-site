@@ -4,7 +4,6 @@
     align-items: center;
     margin-top: 6rem;
     width: 80vw;
-    height: 70vh;
     background-color: var(--bg_gray);
 }
 
@@ -18,6 +17,7 @@
 .general_container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 1rem;
 }
