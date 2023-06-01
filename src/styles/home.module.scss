@@ -71,9 +71,15 @@
   margin-bottom: 0;
 }
 
-.bg_container{
-  margin-bottom: 0;
+.surgeries_container{
+  margin-top: 56px;
   background-color: var(--dark_green);
+  flex-direction: column;
+  justify-content: space-between;
+  
+  @media screen and (max-width: 765px) {
+    width: 100% !important;
+  }
 }
 
 .bg_style{

@@ -49,11 +49,11 @@ export default function Home() {
       </div>    
       <main className={styles.principal_container}>
         <ProfessionalIntro />
+        <div className={styles.surgeries_container} id="surgeries">
+          <SurgeriesCarousel />
+        </div>
         <div className={styles.secondary_element} id="formation">
           <GrayRectangle width={80} height={550}/>
-        </div>
-        <div className={styles.bg_container} id="surgeries">
-          <SurgeriesCarousel />
         </div>
         <div id="articles">
           <Articles />
