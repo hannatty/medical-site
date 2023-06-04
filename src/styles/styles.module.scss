@@ -6,7 +6,7 @@
   position: sticky;
   top: 0;
   z-index: 9999;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
     display: none;
   }
 
@@ -55,7 +55,7 @@
     .mobile {
       display: none;
 
-      @media screen and (max-width: 765px) {
+      @media screen and (max-width: 800px) {
         display: flex;
         justify-content: center;
         align-items: center;
