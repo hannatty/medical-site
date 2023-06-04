@@ -3,7 +3,7 @@ import Image from 'next/image';
 import phone_icon from '../../../public/phone.png';
 import location_icon from '../../../public/location.png';
 
-export function LocationService(){
+export default function LocationService(){
     return(
         <div className={styles.principal_container}>
             <h1>Locais de Atendimento</h1>

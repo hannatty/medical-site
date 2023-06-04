@@ -17,7 +17,7 @@ export default function Articles() {
           <li className={styles.li_style}>
             <a className={styles.link_article}>
               <h3 className={styles.article_title}>9 sintomas de alterações nas pregas vocais</h3>
-              <span className={styles.article_resume}>As pregas vocais, popularmente conhecidas como cordas vocais, estão localizadas no interior da laringe e são formadas por tecidos musculosos... </span>
+              <span className={styles.article_resume}>As pregas vocais, popularmente conhecidas como cordas vocais, estão localizadas... </span>
               <SmallDivider />
             </a>
           </li>
