@@ -53,7 +53,7 @@ export default function Home() {
           <SurgeriesCarousel />
         </div>
         <div className={styles.secondary_element} id="formation">
-          <GrayRectangle width={80} height={550}/>
+          <GrayRectangle />
         </div>
         <div id="articles">
           <Articles />
