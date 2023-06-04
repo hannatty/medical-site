@@ -1,5 +1,5 @@
 .SurgeriesContainer {
-  max-width: 79vw;
+  max-width: 80vw;
   color: var(--dark_green);
   text-align: center;
   padding-top: 2rem;
@@ -7,7 +7,7 @@
 
 .SurgeriesTitle {
   padding-top: 2rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1.5rem;
   font-size: 2.5rem;
   color: var(--white);
   text-align:center
@@ -15,7 +15,6 @@
 
 .cardsContainer {
   margin: 0 auto;
-  width: 60%;
   padding: 2rem;
   display: flex;
   flex-direction: row;
@@ -39,49 +38,54 @@
 
 
 .cardsRepoContainer {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   margin: 0 ;
-  gap: 2rem;
   padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardsRepoContainer div{
+  width: 50%;
 }
 
 .cardRepo {
-  background: var(--green);
-  width: 25%;
-  height: 80%;
-  padding: 1rem;
-  border-radius: 4px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .cardRepoSummary{
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-bottom: 0.2rem;
   margin-top: 0.1rem;
+  font-weight: bold;
+  max-width: 320px;
 }
 
 .cardRepoText {
   color: #fff;
   text-overflow: "…";
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   font-weight: lighter;
   padding: 0.5rem;
+  max-width: 320px;
 }
 
 .cardRepoImage {
-  width: 80%;
-  height: 80%;
-}
+  width: 15rem;
+  height: 10rem;
 
+  @media(max-width: 1080px) {
+    width: auto;
+    height: auto;
+  }
+  
+}
 
 .cardImgContainer {
   gap: 3;
@@ -93,10 +97,10 @@
 
 // MOBILE
 
-@media(max-width: 765px) {
+@media(max-width: 800px) {
 
   .SurgeriesContainer{
-    max-width: 765px;
+    max-width: 800px;
     align-items: center;
   }
 
@@ -110,9 +114,18 @@
     justify-content: center;
     align-items: center;
   }
+
+  .cardsRepoContainer div{
+    width: 100%;
+  }
   
   .card {
     width: 320px;
+  }
+
+  .cardsRepoContainer {
+      display: flex;
+      flex-wrap: wrap;
   }
 
   .cardRepo {

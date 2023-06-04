@@ -3,16 +3,12 @@ import styles from '../../styles/home.module.scss';
 import bio_picture from '../../../public/images/bio_pic.png';
 import Image from 'next/image';
 
-interface GrayRectangleProps {
-  width: number;
-  height: number;
-}
 
-const GrayRectangle: React.FC<GrayRectangleProps> = ({ width, height}) => {
+const GrayRectangle: React.FC = () => {
 
   return (
-    <div className={styles.green_rectangle_container} id="formation">
-        <div className={styles.gray_rectangle} style={{ width: `${width}%`, height }}>
+    <div className={styles.gray_rectangle_container} id="formation">
+        <div className={styles.gray_rectangle}>
           <div className={styles.section_1}>
             <Image src={bio_picture} alt="foto pessoal" className={styles.bio_pic_style}/>
           </div>
