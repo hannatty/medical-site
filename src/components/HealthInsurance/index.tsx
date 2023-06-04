@@ -24,8 +24,6 @@ export function HealthInsurance(){
                 <Image src={cassi} alt="logo Cassi" className={styles.logo_style} />
                 <Image src={compesa} alt="logo Compesa" className={styles.logo_style} />
                 <Image src={fachesf} alt="logo Fachesf" className={styles.logo_style} />
-            </section>
-            <section className={styles.logo_ine}>
                 <Image src={fca} alt="logo FCA Saúde" className={styles.logo_style} />
                 <Image src={fusex} alt="logo Fuxex" className={styles.logo_style} />
                 <Image src={geap} alt="logo GEAP" className={styles.logo_style} />

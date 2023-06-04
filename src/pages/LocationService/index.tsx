@@ -18,10 +18,10 @@ export default function LocationService(){
                         <Image src={location_icon} alt='ícone de localicação' className={styles.icon_style}/>
                         <span>Rua Joaquim Nabuco, 200, Graças</span>
                     </div>
-                    <section className={styles.map_section}>
+                    <div className={styles.map_section}>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.4844626658414!2d-34.90075762552769!3d-8.05196319197539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18e6525d01d1%3A0xa91b6efdb157ec24!2sHospital%20Santa%20Joana%20Recife!5e0!3m2!1spt-BR!2sbr!4v1682962006739!5m2!1spt-BR!2sbr" 
                     width="250" height="250"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-                    </section>
+                    </div>
                 </div>
                 <div className={styles.location_item}>
                     <h3> Unidade de Otorrino do Derby</h3>

@@ -1,9 +1,11 @@
 .general_container{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-color: var(--white);
 }
+
 
 .section_title{
   display: flex;
@@ -14,6 +16,11 @@
   background-color:var(--dark_green);
   margin-top: 2rem;
   margin-bottom: 3rem;
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 .section_title h1{
@@ -23,12 +30,29 @@
 }
 
 
+.articles_container{
+  width: 80vw;
+  max-width: 80vw;
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+
 .article_section{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 2rem 6.6rem;
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    margin: 2rem 0;
+  }
+
 }
 
 .li_style{
@@ -37,6 +61,16 @@
   align-items: flex-start;
   max-width: 20rem;
   margin: 0 3rem;
+
+  @media screen and (max-width: 800px) {
+    max-width: 100%
+  }
+
+  @media screen and (max-width: 2000px) {
+    max-width: 15vw;
+  }
+
+
 }
 
 .link_article{

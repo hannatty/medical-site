@@ -3,10 +3,12 @@ import Divider from '../Divider';
 import headername_styles from './headername.styles.module.scss';
 import logo from '../../../public/logo.png';
 import detail from '../../../public/images/detail.png';
+import Link from 'next/link';
 
 export default function HeaderName(){
     return(
         <div className={headername_styles.headername_container}>
+            <Link href="/" >
             <div className={headername_styles.desktop}>
                 <Divider />
                 <div className={headername_styles.second_header}>
@@ -31,6 +33,7 @@ export default function HeaderName(){
                 </div>
                 <Divider />
             </div>
+            </Link>
         </div>
     )
 }
