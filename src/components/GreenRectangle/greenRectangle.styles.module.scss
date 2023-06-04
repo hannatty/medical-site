@@ -1,5 +1,7 @@
 .green_rectangle {
     position: absolute;
+    margin-top: 20rem;
+    margin-left: 7rem;
     background-color: var(--green);
 
     @media screen and (max-width: 765px) {
@@ -10,17 +12,23 @@
 
   }
 
-
 .green_rectangle h3{
       color: var(--white);
       font-weight: bold;
-      font-size: 13px;
-      margin-bottom: 10px;
+      font-size: 28px;
+      margin-top: 2.5rem;
+      margin-left: 1rem;
+      margin-bottom: 1.8rem;
 }
   
-.green_rectangle span{
+.green_rectangle p{
       color: var(--white);
-      font-weight:lighter;
-      font-size: 10px;
+      font-weight:normal;
+      font-size: 20px ;
+      font-size: 1.1rem;
+      margin-left: 1rem;
+      margin-right: 1.5rem;
 } 
+
+
   
