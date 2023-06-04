@@ -61,13 +61,13 @@
   align-items: flex-start;
   max-width: 20rem;
   margin: 0 3rem;
-
-  @media screen and (max-width: 800px) {
-    max-width: 100%
-  }
-
+  
   @media screen and (max-width: 2000px) {
     max-width: 15vw;
+  }
+
+  @media screen and (max-width: 800px) {
+    max-width: 100%;
   }
 
 
