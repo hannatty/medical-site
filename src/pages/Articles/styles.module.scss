@@ -3,10 +3,15 @@
     flex-direction: column;
     align-items: center;
     background-color: var(--dark_green);
-    max-width: 79vw;
+    width: 80vw;
     margin-bottom: 5rem;
-    padding-top: 2rem;
-    padding-top: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 2EM;
+
+    @media screen and (max-width: 800px) {
+        width: 100%;
+    }
+    
 }
 
 .general_container button{
@@ -20,6 +25,9 @@
 .section_title{
     color: var(--white);
     font-size: 2.5rem;
+    @media screen and (max-width: 800px) {
+        font-size: 1.5em;
+    }
 }
 
 .article_section{
@@ -34,8 +42,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    max-width: 20rem;
-    margin: 0 3rem;
+    margin: 0 0 0 2rem;
+    width: 30%;
+
+    @media screen and (max-width: 800px) {
+        width: 100%;
+        margin: 0 0rem;
+    }
 }
 
 .link_article{
@@ -44,11 +57,13 @@
 
 .article_title{
     color: var(--white);
+    font-size: 1em;
 }
 
 .article_resume{
     color:var(--bg_gray);
     font-weight: normal;
+    font-size: 0.8em;
 }
 
 .small_divider{
