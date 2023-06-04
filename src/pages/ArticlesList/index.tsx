@@ -13,8 +13,8 @@ export default function ArticlesList() {
         <div className={styles.section_title}>
           <h1>Artigos</h1>
         </div>
-        <div>
-        <ul className={styles.article_section}>
+        <div className={styles.articles_container}>
+          <ul className={styles.article_section}>
           <li className={styles.li_style}>
             <Link className={styles.link_article} href="/FullArticle/Article1">
               <h3 className={styles.article_title}>O que é a tireoidite de Hashimoto?</h3>
