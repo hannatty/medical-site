@@ -11,10 +11,9 @@
   align-items: center;
   justify-content: center;
   height: 12rem;
-  width: 60vw;
+  width: 80vw;
   background-color:var(--dark_green);
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin: 2rem 1rem 3rem ;
 }
 
 .section_title h1{
@@ -38,10 +37,10 @@
 }
 
 .topic_title{
-  max-width: 70vw;
+  max-width: 80vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .topic_title h2{
@@ -54,6 +53,14 @@
 
 .topic_title p{
   font-size: 1rem;
-  margin-bottom: 1.8rem;
-  max-width: 60vw;
+  margin-bottom: 1.5rem;
+  max-width: 80vw;
+}
+
+.topic_title ul{
+  margin-bottom: 1.5rem;
+}
+
+.list_style{
+  width: 80vw;
 }
