@@ -23,18 +23,18 @@ export default function ArticlesList() {
             </Link>
           </li>
           <li className={styles.li_style}>
-            <a className={styles.link_article}>
+            <Link className={styles.link_article}  href="/FullArticle/Article2">
               <h3 className={styles.article_title}>9 sintomas de alterações nas pregas vocais</h3>
               <span className={styles.article_resume}>As pregas vocais, popularmente conhecidas como cordas vocais, estão localizadas no interior da laringe e são formadas por tecidos musculosos... </span>
               <SmallDivider />
-            </a>
+            </Link>
           </li>
           <li className={styles.li_style}>
-            <a className={styles.link_article}>
+            <Link className={styles.link_article} href="/FullArticle/Article3">
               <h3 className={styles.article_title}>Como prevenir o câncer de laringe</h3>
               <span className={styles.article_resume}>Segundo a Organização Mundial da Saúde (OMS), o Brasil é um dos países com maior incidência de câncer de laringe...</span>
               <SmallDivider />
-            </a>
+            </Link>
           </li>
           <li className={styles.li_style}>
             <a className={styles.link_article}>
