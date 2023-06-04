@@ -17,6 +17,7 @@
 .general_container button{
     height: 3rem;
     width: 10rem;
+    margin-bottom: 2rem;
     color: var(--white);
     background-color: var(--green);
     border: var(--green);
@@ -53,6 +54,7 @@
 
 .link_article{
     cursor: pointer;
+    text-decoration: none;
 }
 
 .article_title{

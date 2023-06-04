@@ -8,7 +8,7 @@ export default function Articles() {
         <h1 className={styles.section_title}>Artigos</h1>
         <ul className={styles.article_section}>
           <li className={styles.li_style}>
-            <a className={styles.link_article}>
+            <a className={styles.link_article} href="/FullArticle/Article1">
               <h3 className={styles.article_title}>O que é a tireoidite de Hashimoto?</h3>
               <span className={styles.article_resume}>A glândula tireoide desempenha funções muito importantes para manter o bom funcionamento do organismo....</span>
               <SmallDivider />
@@ -30,7 +30,7 @@ export default function Articles() {
           </li>
         </ul>
         <button>
-          <Link href="/Articles_List" passHref  className={styles.link_style}>Leia Mais</Link>
+          <Link href="/ArticlesList" className={styles.link_style}>Leia Mais</Link>
         </button>
       </div>
     )
