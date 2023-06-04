@@ -6,12 +6,11 @@ import bradesco from '../../../public/images/HealthInsuranceLogo/bradesco.png'
 import cassi from '../../../public/images/HealthInsuranceLogo/cassi.png'
 import compesa from '../../../public/images/HealthInsuranceLogo/compesa.png'
 import fachesf from '../../../public/images/HealthInsuranceLogo/fachesf.png'
-import fca from '../../../public/images/HealthInsuranceLogo/fca-saude-1.png'
-import fusex from '../../../public/images/HealthInsuranceLogo/fusex.jpg'
+import fca from '../../../public/images/HealthInsuranceLogo/fca.png'
+import fusex from '../../../public/images/HealthInsuranceLogo/fusex.png'
 import geap from '../../../public/images/HealthInsuranceLogo/geap.png'
-import saude_recife from '../../../public/images/HealthInsuranceLogo/sauderecife.png'
-import sismepe from '../../../public/images/HealthInsuranceLogo/sismepe.jpg'
-import unimed from '../../../public/images/HealthInsuranceLogo/unimed2.png'
+import sismepe from '../../../public/images/HealthInsuranceLogo/sismepe.png'
+import unimed from '../../../public/images/HealthInsuranceLogo/unimed.png'
 
 
 
