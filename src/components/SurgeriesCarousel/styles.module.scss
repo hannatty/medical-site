@@ -94,6 +94,7 @@
 // MOBILE
 
 @media(max-width: 765px) {
+
   .SurgeriesContainer{
     max-width: 765px;
     align-items: center;
@@ -115,7 +116,38 @@
   }
 
   .cardRepo {
-    width: 320px;
+    width: 100%;
+    background: transparent;
+    height: auto;
+    padding: 0;
+    border-radius: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .cardRepoSummary{
+    color: #fff;
+    font-size: 1rem;
+    padding-bottom: 0.2rem;
+    margin-top: 0.1rem;
+    font-weight: bold;
+  }
+
+  .cardRepoImage {
+    width: 170px;
+    height: 109px;
+  }
+  
+  .cardRepoText {
+    color: #fff;
+    text-overflow: "…";
+    font-size: 0.8rem;
+    font-weight: lighter;
+    padding: 0.5rem;
   }
 
 }
