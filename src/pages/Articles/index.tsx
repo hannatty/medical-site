@@ -30,7 +30,7 @@ export default function Articles() {
           </li>
         </ul>
         <button>
-          <Link href={"/"}  className={styles.link_style}>Leia Mais</Link>
+          <Link href="/Articles_List" passHref  className={styles.link_style}>Leia Mais</Link>
         </button>
       </div>
     )
