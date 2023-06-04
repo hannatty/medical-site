@@ -4,17 +4,18 @@ import Image from 'next/image';
 import GreenRectangle from '../GreenRectangle';
 import main_picture_mobile from '../../../public/images/main_pic_mobile.png'
 import main_pic from '../../../public/images/main_pic.jpeg'
+import principal_pic from '../../../public/picture.jpeg'
 
 export default function ProfessionalIntro(){
     return(
         <div className={professionalIntro_styles.professionalIntro_container}>
           <div className={styles.green_rectangle_container}>
-            <Image src={main_pic} alt="Foto Dr. Carlos Alberto Barros" className={styles.pic_style} />
+            <Image src={principal_pic} alt="Foto Dr. Carlos Alberto Barros" className={styles.pic_style} />
             <GreenRectangle
-                 titleRectangle='a fazer'
-                 descriptionRectangle='a fazer'
-                 width={500} 
-                 height={250}/>
+                 titleRectangle='Experiência em Cirurgias de Alta Complexidade'
+                 descriptionRectangle='Estou junto contigo para enfrentar os tumores de cabeça e pescoço.'
+                 width={400} 
+                 height={220}/>
           </div>
           <div className={professionalIntro_styles.mobile_green_rectangle}>
             <Image src={main_picture_mobile} alt="Foto Dr. Carlos Alberto Barros" />

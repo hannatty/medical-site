@@ -12,7 +12,7 @@ const GreenRectangle: React.FC<GreenRectangleProps> = ({titleRectangle,descripti
   return (
     <div className={styles.green_rectangle} style={{ width, height }}>
      <h3>{titleRectangle}</h3>
-     <span>{descriptionRectangle}</span>
+     <p>{descriptionRectangle}</p>
     </div>
   );
 };

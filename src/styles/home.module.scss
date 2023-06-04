@@ -17,7 +17,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
     display: none;
   }
 }
@@ -33,31 +33,58 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
 }
 
 .section_1{
   padding: 2rem;
-  max-width: 30%;
 }
 
 .section_2{
   display: flex;
   flex-direction: column;
-  align-items:flex-start;
+  align-items: center;
+  justify-content: center;
   max-width: 50%;
-  padding: 3.5rem;
-  margin-top: 1rem;
+  padding-right: 2rem;
+  text-align: justify;
+
+  @media screen and (max-width: 800px) {
+    max-width: 100%;
+    padding: 0px 4rem;
+  }
+
 }
 
 .section_2 p{
-  font-size: 1rem;
+  
+  font-size: 1.5rem;
   margin-top: 1rem;
   color: var(--text_gray);
+
+  @media screen and (max-width: 2000px) {
+    font-size: 1rem;
+  }
+
+  @media screen and (max-width: 800px) {
+    font-size: 0.8rem;
+  }
+
 }
 
 .bio_pic_style{
   width: 275px;
   height: 488px;
+
+  @media screen and (max-width: 800px) {
+    width: 12rem;
+    height: 20rem;
+  }
+}
+
+.pic_style{
+  width: 450px;
+  height: 496.5px;
 }
 
 .kkk{
@@ -67,17 +94,24 @@
 }
 
 .secondary_element{
-  margin-top: 5rem;
-  margin-bottom: 0;
+
+  max-width: 80vw;
+  background-color:var(--bg_gray);
+
+  @media screen and (max-width: 800px) {
+    max-width: 100%;
+    width: 100% !important;
+  }
 }
 
 .surgeries_container{
+  width: 80vw;
   margin-top: 56px;
   background-color: var(--dark_green);
   flex-direction: column;
   justify-content: space-between;
   
-  @media screen and (max-width: 765px) {
+  @media screen and (max-width: 800px) {
     width: 100% !important;
   }
 }

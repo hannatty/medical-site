@@ -8,7 +8,7 @@ import GrayRectangle from '../components/GrayRectangle';
 import SurgeriesCarousel from '../components/SurgeriesCarousel';
 import Articles from './Articles';
 import { HealthInsurance } from '../components/HealthInsurance';
-import { LocationService } from './LocationService';
+import LocationService from './LocationService';
 import cirurgia from '../../public/images/cirurgia.png';
 import HeaderName from '../components/HeaderName';
 import Widget from '../components/Widget';
@@ -53,7 +53,7 @@ export default function Home() {
           <SurgeriesCarousel />
         </div>
         <div className={styles.secondary_element} id="formation">
-          <GrayRectangle width={80} height={550}/>
+          <GrayRectangle />
         </div>
         <div id="articles">
           <Articles />

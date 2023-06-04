@@ -1,6 +1,6 @@
 .widget {
     position: fixed;
-    top: 10rem;
+    top: 7rem;
     right: 11.5rem;
     z-index: 9999;
     cursor: pointer;
@@ -10,7 +10,7 @@
     }
   }
 
-@media (max-width:765px){
+@media (max-width:800px){
   .widget{
     top: 9rem;
     right: 0.5rem;
