@@ -1,11 +1,27 @@
-.footer_container{
+.main_footer_container{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.internal_footer_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #398168;
     color: white;
     text-align: center;
     padding: 10px;
+
+    width: 80vw;
+    
+    @media screen and (max-width: 800px) {
+        width: 100%;
+    }
+
 }
 
 .footer_professional_information{
