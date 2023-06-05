@@ -37,25 +37,25 @@ export default function ArticlesList() {
             </Link>
           </li>
           <li className={styles.li_style}>
-            <a className={styles.link_article}>
+            <Link className={styles.link_article} href="/FullArticle/Article4">
               <h3 className={styles.article_title}>Tudo que você precisa saber sobre a Tireóide</h3>
               <span className={styles.article_resume}>A glândula tireoide é responsável por desempenhar importantes tarefas para o nosso organismo...</span>
               <SmallDivider />
-            </a>
+            </Link>
           </li>
           <li className={styles.li_style}>
-            <a className={styles.link_article}>
+            <Link className={styles.link_article} href="/FullArticle/Article5">
               <h3 className={styles.article_title}>Avaliação pré-operatória: a importância do risco cirúrgico</h3>
               <span className={styles.article_resume}>A realização de uma intervenção cirúrgica traz aflição e ansiedade a quem será submetido a ela... </span>
               <SmallDivider />
-            </a>
+            </Link>
           </li>
           <li className={styles.li_style}>
-            <a className={styles.link_article}>
+            <Link className={styles.link_article} href="/FullArticle/Article6">
               <h3 className={styles.article_title}>O que é regeneração tecidual?</h3>
               <span className={styles.article_resume}>O organismo humano possui uma série de mecanismos para defender-se de agentes invasores, doenças ou para se curar quando é lesionado...</span>
               <SmallDivider />
-            </a>
+            </Link>
           </li>
         </ul>
         </div>
