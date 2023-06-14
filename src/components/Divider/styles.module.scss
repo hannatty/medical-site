@@ -6,7 +6,8 @@
 
 @media(max-width: 800px) {
   .divider {
-    border-top: 0.2rem solid var(--divisor_gray);
-    width: 100%;
+    display: none;
+    //  border-top: 0.2rem solid var(--divisor_gray);
+    //  width: 100%;
   }
 }

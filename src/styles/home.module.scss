@@ -87,10 +87,25 @@
   height: 496.5px;
 }
 
-.kkk{
-  display: flex;
-  flex-direction: row;
-  align-items:center;
+.scheduleAppointment{
+  margin-top: 3em;
+  background-color: var(--dark_green);
+  border: 0;
+  color: white;
+  padding: 1.5em;
+  font-size: 1em;
+
+  @media screen and (max-width: 800px) {
+    padding: 1.5em;
+    font-size: 0.8em;
+  }
+}
+
+.scheduleAppointment:hover{
+  cursor: pointer;
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  background-color: var(--green);
+  transform: translateY(-0.25em);
 }
 
 .secondary_element{
@@ -136,4 +151,7 @@
 
 .header_name_style{
   margin-top: 0.5rem;
+  @media screen and (max-width: 800px) {
+    margin-top: 0;
+  }
 }

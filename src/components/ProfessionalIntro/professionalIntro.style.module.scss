@@ -1,6 +1,10 @@
 
 .professionalIntro_container{
     padding-top: 10px;
+    @media screen and (max-width: 800px) {
+      padding-top: 0;
+      width: 100%;
+    }
 }
 
 .mobile_green_rectangle {
@@ -9,5 +13,11 @@
   @media screen and (max-width: 800px) {
       display: flex;
     }
-  }
+}
+
+.mobile_green_rectangle img{
+
+  width: 100%;
+  height: 30%;
+}
   

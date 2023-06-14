@@ -1,5 +1,8 @@
 .headername_container{
     padding: 20px 20px 10px 20px;
+    @media screen and (max-width: 800px) {
+        padding: 0;
+      }
 }
 
 .headername_container a{
@@ -69,8 +72,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .header_professional_name_mobile h1{

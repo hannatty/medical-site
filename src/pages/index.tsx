@@ -27,6 +27,13 @@ export default function Home() {
     }
   }
 
+  const scheduleAppointment = () => {
+
+    const encodedMessage = encodeURIComponent("Olá, gostaria de agendar uma consulta.");
+    const phoneNumber = "5581993524086";
+    window.open(`https://wa.me/${phoneNumber.replace(/\D+/g, '')}?text=${encodedMessage}`, '_blank');
+  };
+
   return (
     <>
       <Head>
@@ -49,6 +56,9 @@ export default function Home() {
       </div>    
       <main className={styles.principal_container}>
         <ProfessionalIntro />
+        <button onClick={scheduleAppointment} className={styles.scheduleAppointment} >
+          AGENDE SUA CONSULTA AGORA!
+        </button>
         <div className={styles.surgeries_container} id="surgeries">
           <SurgeriesCarousel />
         </div>
