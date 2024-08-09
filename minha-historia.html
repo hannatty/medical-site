@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+   <title>Dr. Carlos Alberto Barros</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="image/logoc.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Medicio
+  * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <style type="text/css">
+    .box-servicos {
+      text-align: center;
+    }
+
+    .box-servicos img {
+      width: 130px;
+      height: 130px;
+      border-radius: 100px;
+    }
+
+    .imagem-cir {
+            height: 550px;
+            position: relative;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+    .imagem-cir img {
+            width: 100%;
+            height: 550px;
+            top: 50%;
+            left: 50%;
+            object-fit: cover; /* para garantir que a imagem cubra todo o espaço da div */
+    }
+
+    .color-base {
+      background: #3fbbc0;
+    }
+
+    .color-base-text {
+      color: #3fbbc0; 
+    }
+
+    .box-color-base * {
+      color: rgba(0,0,0,0.8);
+      color: #c4c4c4;
+    }
+
+    .pontape {
+        padding: 15px 10px;
+      }
+
+    @media (max-width: 767px) {
+      .pontape-lattes {
+        padding-top: 700px; 
+      }
+    }
+  </style>
+<link rel="stylesheet" type="text/css" href="style-demo.css">
+</head>
+
+<body>
+
+ <!-- ======= Header ======= -->
+ <header id="header" class="fixed-top" style="top: 0;">
+  <div class="container d-flex align-items-center">
+
+    <a href="index.html" class="logo me-auto">
+      <img src="image/logoc.png" alt="">
+    </a>
+
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul class="menus">
+        <li><a class="nav-link scrollto " href="index.html">Inicio</a></li>
+        <li><a class="nav-link scrollto" href="minha-historia.html">Minha historia</a></li>
+        <!-- li>
+          <a href="#artigos" class="mobile-nav-toggle-2">
+            Artigos
+          </a>
+        </li -->
+        <li class="dropdown"><a href="#"><span>Artigos</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <!-- li><a href="tireoide.html">Tireoide</a></li -->
+            <li>
+              <li class="dropdown"><a href="#"><span>Tireoide</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="tireoide.html">O que é o câncer de tireoide?</a></li>
+                <li><a href="tirodecotomia-parcial-e-total.html">Tireoidectomia parcial e Total</a></li>
+                <li><a href="Tireoidectomia-sem-cicatriz.html">Tireoidectomia sem cicatriz (TOETVA)</a></li>
+                <li><a href="Iodo-radioativo-no-câncer-de-Tireoide.html">Iodo radioativo no câncer de Tireoide</a></li>
+                  <li><a href="radioblacao.html">Radioblação</a></li>
+              </ul>
+            </li>
+            </li>
+            <li><a href="cirugia-robotica.html">Cirurgia Robótica</a></li>
+            <li><a href="microcirurgia-reconstrutiva.html">Microcirurgia Reconstrutiva</a></li>
+            <li><a href="sialoendoscopia.html">Sialoendoscopia</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown"><a href="#"><span>Exames</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="Videolaringoscopia.html">Videolaringoscopia</a></li>
+            <li><a href="ultrassonografia.html">Ultrassonografia</a></li>
+            <li>
+              <a href="puncao-aspirativa-biopsias.html">
+                Punção aspirativa / Biópsias
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <!-- <li><a href="blog.html">BLOG</a></li> -->
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+
+    <a href="https://wa.me/5581993524086" target="_blank" class="appointment-btn scrollto px-3 py-2" style="background-color: #3fbbc0 !important; position: relative; font-size: 12px;">
+       <i class="bx bxl-whatsapp" style="font-size: 25px; position: absolute; top: 4px; left: 4px;"></i>
+       <span class="ms-3">Agendar consulta</span>
+    </a>
+
+  </div>
+</header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+
+  <main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="container" data-aos="fade-up">
+        <br><br><br>
+
+        <div class="container col-lg-8 mx-auto">
+          <div class="pb-3" >
+          <h1 style="border-bottom: 2px solid #3fbbc0;">Minha história</h1>
+        </div>
+
+          <div class="row">
+            <div class="col-lg-12 mb-3 text-center">
+              <img src="image/banner-4.jpeg" class="img-fluid">
+            </div>
+            <div class="mb-3">
+              <div class="">
+                <h4>
+                  Sobre mim
+                </h4>
+                <p class="font-post-1">
+                  Olá, sou o Dr. Carlos Alberto Barros Jr., nascido na acolhedora cidade do Crato-CE, mas com fortes raízes familiares no interior de Pernambuco. Desde jovem, meu desejo de ajudar as pessoas era evidente. Este anseio me acompanhou até o segundo semestre da faculdade de medicina na UFPE, em Recife, onde fui cativado pela cirurgia como meio de resolver os desafios e enfermidades dos pacientes.
+                </p>
+
+                <h4>
+                  Formação Profissional e Dedicação
+                </h4>
+
+                <p class="font-post-1">
+                  Durante meus anos de formação, dediquei-me intensamente aos plantões, investindo horas extracurriculares e virando noites para aprender e praticar a arte da cirurgia. Após a graduação na UFPE, servi ao Exército Brasileiro como médico antes de buscar especialização como cirurgião. Minha residência em Cirurgia Geral no Hospital Getúlio Vargas, em Recife, foi crucial para minha formação, especialmente ao me encantar pela subespecialidade de Cirurgia de Cabeça e Pescoço.
+                </p>
+
+
+              </div>
+            </div>
+
+
+
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <section class="color-base box-color-base bg-dark">
+      <div class="col-lg-8 mx-auto px-3">
+      <h4>
+        Busca por Excelência e Especialização Avançada
+      </h4>
+
+      <p class="font-post-1 mb-4">
+        Em busca de uma especialização mais aprofundada, mudei-me para São Paulo, onde realizei minha segunda residência médica no renomado Hospital AC Camargo Cancer Center. Lá, tive acesso a tratamentos avançados e aprendi sobre técnicas inovadoras. Descobri o fascínio pela Microcirurgia Reconstrutiva, dedicando um ano a um programa de aperfeiçoamento nessa técnica avançada.
+      </p>
+
+      <h4>
+        Certificações e Atualizações Profissionais
+      </h4>
+
+      <p class="font-post-1 mb-4">
+        Minha dedicação ao aprimoramento profissional não parou por aí. Além da prova de título de especialista da SBCCP, busquei constantemente atualizações em novas técnicas cirúrgicas. Participei de cursos e workshops sobre monitorização de nervos, reabilitação vocal pós Laringectomia Total, Cirurgias a Laser de Laringe, Cirurgia Robótica de Cabeça e Pescoço, Sialoendoscopia, e Ultrassonografia e ablação de nódulos tireoideanos por Radiofrequência (RFA).
+      </p>
+
+      <h4>
+      Filosofia de Cuidados e Compromisso com os Pacientes
+      </h4>
+
+      <p class="font-post-1">
+      Reconheço que o tratamento das patologias de cabeça e pescoço, especialmente o câncer, pode gerar medos e incertezas. Estou aqui para enfrentar esses desafios ao lado dos meus pacientes, oferecendo suporte, compreensão e cuidado humanizado. Meu compromisso é proporcionar uma jornada de tratamento segura, eficaz e personalizada a cada pessoa que confia em mim como seu cirurgião.
+      </p>
+</div>
+    </section>
+
+<section>
+            <div class="col-lg-12 mb-3 container">
+              <div class="px-2">
+
+                <br>
+
+<h4 class="pb-1">Graduação Médica</h4>
+
+<h5>
+           Hospital AC Camargo Cancer Center – São Paulo/SP
+        </h5>
+
+        <p>
+          <div class="row">
+         <div class="mb-2 col-md-6 col-lg-6">
+            <img src="image/acj.jpg" style="max-width: 100%;">
+            <div style="font-size: 12px;">
+               Hospital A.C. Camargo – Referência no tratamento de câncer – São Paulo
+            </div>
+            <div class="py-2 pt-3">
+              <p class="mb-1" style="font-weight: 600;">Verificar currículo no link abaixo</p>
+              <a href="http://lattes.cnpq.br/0346208967934775" target="_blank" style="display: inline-flex; align-items: center; text-decoration: none; color: #007BFF; font-weight: bold; font-size: 1.1em; background-color: #f8f9fa; padding: 10px; border: 2px solid #007BFF; border-radius: 5px; transition: background-color 0.3s, color 0.3s;">
+                <img src="image/pointer.png" alt="" style="transform: rotate(90deg); width: 20px; margin-right: 10px;">
+                <span>http://lattes.cnpq.br/0346208967934775</span>
+              </a>
+            </div>
+      </div>
+  <div class="col-lg-6 col-md-6" style="position: relative;">
+      <div style="position: absolute; width: 2px; height: 1000px;" class="color-base">
+        
+      </div>
+
+      <div class="col-12 pe-4" style="position: absolute; top: 0px; left: 20px;">
+        <div>
+          <div class="mb-3">
+             <div class="color-base p-2 py-1">
+              <strong>  <i class="bx bx-calendar" style="color: #000;"></i> Cronologia </strong>
+            </div>
+          </div>
+          <div class="mb-3">
+            <div style="color: #3fbbc0; font-size: 14px;">
+              2009
+              <hr style="margin-top: 0px;">
+            </div>
+            <div style="margin-top: -10px;">
+              <i>Graduado em Medicina pela Universidade Federal de Pernambuco</i>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <div style="color: #3fbbc0; font-size: 14px;">
+              2013
+              <hr style="margin-top: 0px;">
+            </div>
+            <div style="margin-top: -10px;">
+              <i>Residência médica em Cirurgia Geral pelo Hospital Getulio Vargas – Recife/PE</i>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <div style="color: #3fbbc0; font-size: 14px;">
+              2015
+              <hr style="margin-top: 0px;">
+            </div>
+            <div style="margin-top: -10px;">
+              <i>Residência médica em Cirurgia de Cabeça e Pescoço pelo Hospital AC Camargo Cancer Center – São Paulo/SP</i>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <div style="color: #3fbbc0; font-size: 14px;">
+              2016
+              <hr style="margin-top: 0px;">
+            </div>
+            <div style="margin-top: -10px;">
+              <i>Fellowship em Microcirurgia Reconstrutiva no Hospital A. C. Camargo Cancer Center em São Paulo/SP</i>
+            </div>
+          </div> 
+        </div> 
+        <div>
+          <div>
+            <div class="color-base p-2 py-1">
+              <strong> <i class="bx bxs-graduation" style="color: #000;"></i> 
+                        Cursos 
+              </strong>
+            </div>
+            </div>
+
+            <div class="p-2" style="background: rgba(0,0,0,0.1); color: #000;">
+              <p>
+                <i class="bx bx-right-arrow-alt"></i>
+
+                Habilitação em Cirurgia Robótica de Cabeça e Pescoço pela iFalke / SBCCP
+              </p>
+
+              <p>
+                <i class="bx bx-right-arrow-alt"></i>
+
+                Curso de Microcirurgia reconstrutiva na Universidade de São Paulo USP-SP
+              </p>
+
+              <p>
+                <i class="bx bx-right-arrow-alt"></i>
+
+                Curso de Ultrassonografia e ablação por Radiofrequência de nódulos tireoideanos pela SBCCP
+              </p>
+
+              <p>
+                <i class="bx bx-right-arrow-alt"></i>
+
+                Curso de Sialoendoscopia pela Strattner
+              </p>
+
+              <p>
+                <i class="bx bx-right-arrow-alt"></i>
+                Curso de Microcirurgia com Laser em Laringe pelo Instituto IRCAD – Barretos/SP 
+              </p>
+              <p>
+                <i class="bx bx-right-arrow-alt"></i>
+                Membro Efetivo da Sociedade Brasileira de Cirurgia de Cabeça e Pescoço – SBCCP
+              </p>
+
+            </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br>
+
+</p>
+
+<div class="pontape-lattes invisible">
+  <a href="http://lattes.cnpq.br/0346208967934775">
+    http://lattes.cnpq.br/0346208967934775
+  </a>
+</div>
+
+              </div>
+            </div>
+
+            </section>
+  </main><!-- End #main -->
+
+<div class="pontape">
+  
+</div>
+
+<!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="text-center">
+            <div class="footer-info">
+              <div class="text-center">
+                <h5>Dr. Carlos Alberto Barros</h5>
+                <div style="font-size: 18px;">
+                  Cirurgião de Cabeça e Pescoço <br>
+                  CRM-PE: 18069 | RQE: 3263
+                </div>
+              </div>
+              </p>
+              <div class="social-links mt-3">
+                <a href="https://wa.me/5581993524086" target="_blank" class="facebook"><i class="bx bxl-whatsapp"></i></a>
+
+                <a href="https://www.facebook.com/share/Gqetdm2xzKkzsk1R/?mibextid=LQQJ4d" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+                
+                <a href="https://www.instagram.com/drcarlos.cabecaepescoco?igsh=MWs2ejAxd3dyMGk1bQ%3D%3D&utm_source=qr" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+                
+                <a href="https://www.linkedin.com/in/carlos-alberto-cavalcante-de-barros-junior-16a28b2a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>2024</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://devaholic.ao">devaholic</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

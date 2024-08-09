@@ -1,0 +1,222 @@
+.count-box p {
+      font-size: 18px !important;
+    }
+
+    .card-text-nome {
+      position: absolute;
+      bottom: 10px;
+      background-color: rgba(255,255,255,0.7);
+      padding: 10px;
+
+
+    }
+
+    ul.planos-saude {
+      padding: 0;
+      margin: 0
+    }
+
+    ul.planos-saude li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: inline-block;
+      margin: 10px;
+    }
+
+    ul.planos-saude li img{
+      width: 100px;
+    }
+
+    .social-links i {
+      font-size: 22px !important;
+    }
+
+    .description {
+    max-height: 88px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+
+  .description-expand {
+    max-height: 1000px; /* Um valor grande o suficiente para acomodar todo o conteúdo */
+  }
+
+    .description + span:hover {
+      cursor: pointer;
+      color: grey;
+      transition: 1s;
+    }
+    
+    .seta {
+      display: inline-block;
+      transform: rotate(90deg);
+      font-size: 13px;
+      transition: transform 0.3s ease-in-out;
+      font-size: 14px;font-weight: bold; opacity: 0.7;
+      color: grey;
+    }
+
+    .seta-down {
+      transform: rotate(270deg);
+    }
+
+    .testimonials .testimonial-item p {
+      font-style: normal !important;
+      height: 270px;
+    }
+
+    #hero-1, #hero-2, #hero-3, #hero-banner {
+      width: 100%;
+      height: 100vh;
+      position: relative;
+    }
+
+    #hero-banner {
+      background: url("image/banner-blog.jpg") top center no-repeat;
+      background-size: cover;
+    }
+
+    #hero-1 {
+      background: url("image/banner.jpeg") top center no-repeat;
+      background-size: cover;
+    }
+
+    #hero-2 {
+      background: url("image/banner-4.jpeg") top center no-repeat;
+      background-size: cover;
+    }
+
+    #hero-3 {
+      background: url("image/banner-3.jpeg") top center no-repeat;
+      background-size: cover;
+    }
+
+    .banner-hero {
+      background: rgba(0,0,0,0.6); height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+
+    .splide__arrows {
+      display: none;
+    }
+
+    .parceiros img {
+      width: 100px;
+    }
+
+    .color-base {
+      background: #3fbbc0;
+    }
+
+    .box-blog-title {
+      border-bottom: 2px solid #3fbbc0;
+    }
+
+    .shadow-noticia {
+      position: absolute; bottom: -10px;
+      box-shadow: 0px 0px 100px 50px rgba(0,0,0,1);
+    }
+
+    .shadow-noticia + div {
+      font-size: 14px; opacity: 0.7; position: absolute; bottom: 10px; left: 10px; color: #fff;
+    }
+
+    .box-blog-artigo {
+      background: rgba(0,0,0,0.1);
+      padding: 1px 10px;
+    }
+
+    body * {
+      font-family: "Ubuntu", sans-serif !important;
+    }
+
+    .biografia * {
+    	font-family: "Lora", serif !important;
+    }
+
+    .exp-cirurgia li {
+      display: inline-block;
+      margin: 0px 5px;
+      font-size: 18px !important;
+    }
+
+    .menus li a {
+      font-size: 13px !important; 
+      margin: 0;
+    }
+
+    .cta-btn {
+      border-radius: 0 !important;
+      padding: 5px;
+      border: 1px solid #3fbbc0 !important;
+      width: 100% !important;
+    }
+
+    .cta-btn a {
+      color: #fff !important;
+    }
+
+    .cta-btn:hover a {
+      color: #000 !important;
+    }
+
+    .cta-btn:hover {
+      background: rgba(255,255,255,0.8) !important;
+
+    }
+
+
+    .box-servicos {
+        width: 130px;
+        height: 130px;
+        border-radius: 100px;
+        border: 3px solid #3fbbc0;
+        overflow: hidden; /* Adiciona esta linha para garantir que a imagem não ultrapasse a borda arredondada */
+        padding: 8px;
+        margin: 0 auto;
+      }
+
+      .box-servicos img {
+        width: 100%;
+        height: 100%; /* Adiciona esta linha para garantir que a imagem preencha a altura da div */
+        object-fit: cover;
+        border-radius: 100px;
+      }
+
+      .box-servicos-r {
+        background: rgba(255,255,255,0.6);
+        border-radius: 8px;
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+        margin-bottom: 50px;
+      }
+
+      nav * {
+        font-family: "Ubuntu", sans-serif !important;
+      }
+
+
+.font-post-1 {
+      font-size: 22px;
+    }
+
+    .font-post-2 {
+      font-size: 20px;
+    }
+
+    @media (max-width: 558px) {
+      .font-post-1 {
+        font-size: 18px;
+      }
+
+      .font-post-2 {
+        font-size: 16px;
+      }
+    }
+
+    .testimonials{
+      display: none;
+    }

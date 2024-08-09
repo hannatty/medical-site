@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Dr. Carlos Alberto Barros</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="image/logoc.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Medicio
+  * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <style type="text/css">
+    .box-servicos {
+      text-align: center;
+    }
+
+    .box-servicos img {
+      width: 130px;
+      height: 130px;
+      border-radius: 100px;
+    }
+
+    .imagem-cir {
+            height: 550px;
+            position: relative;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+    .imagem-cir img {
+            width: 100%;
+            height: 550px;
+            top: 50%;
+            left: 50%;
+            object-fit: cover; /* para garantir que a imagem cubra todo o espaço da div */
+    }
+
+    .artigo input::placeholder {
+      opacity: 0.4;
+    }
+
+     .text-btn-drop {
+    cursor: pointer;
+  }
+
+  .recolhido {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.expandido {
+  max-height: 1000px;
+  transition: max-height 0.5s ease-in-out; /* Adicione esta linha para definir a transição ao expandir */
+}
+
+    .seta {
+      display: inline-block;
+      transition: transform 0.3s ease-in-out;
+      margin-left: 5px; 
+    }
+
+    .seta-down {
+      transform: rotate(90deg);
+    }
+
+    .splide__arrows {
+      display: none;
+    }
+
+    .parceiros img {
+      width: 100px;
+    }
+
+    .color-base {
+      background: #3fbbc0;
+    }
+
+    .box-blog-title {
+      border-bottom: 2px solid #3fbbc0;
+    }
+
+    .shadow-noticia {
+      position: absolute; bottom: -10px;
+      box-shadow: 0px 0px 100px 50px rgba(0,0,0,1);
+    }
+
+    .shadow-noticia + div {
+      font-size: 14px; opacity: 0.7; position: absolute; bottom: 10px; left: 10px; color: #fff;
+    }
+
+    .box-blog-artigo {
+      background: rgba(0,0,0,0.1);
+      padding: 1px 10px;
+    }
+
+    .btn-ler-mais:hover {
+      background: #3fbbc0;
+    }
+
+  </style>
+<link rel="stylesheet" type="text/css" href="style-demo.css">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top" style="top: 0;">
+    <div class="container d-flex align-items-center">
+
+      <a href="index.html" class="logo me-auto">
+        <img src="image/logoc.png" alt="">
+      </a>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul class="menus">
+          <li><a class="nav-link scrollto " href="index.html">Inicio</a></li>
+          <li><a class="nav-link scrollto" href="minha-historia.html">Minha historia</a></li>
+          <!-- li>
+            <a href="#artigos" class="mobile-nav-toggle-2">
+              Artigos
+            </a>
+          </li -->
+          <li class="dropdown"><a href="#"><span>Artigos</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <!-- li><a href="tireoide.html">Tireoide</a></li -->
+              <li>
+                <li class="dropdown"><a href="#"><span>Tireoide</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="tireoide.html">O que é o câncer de tireoide?</a></li>
+                  <li><a href="tirodecotomia-parcial-e-total.html">Tireoidectomia parcial e Total</a></li>
+                  <li><a href="Tireoidectomia-sem-cicatriz.html">Tireoidectomia sem cicatriz (TOETVA)</a></li>
+                  <li><a href="Iodo-radioativo-no-câncer-de-Tireoide.html">Iodo radioativo no câncer de Tireoide</a></li>
+                  <li><a href="radioblacao.html">Radioblação</a></li>
+                </ul>
+              </li>
+              </li>
+              <li><a href="cirugia-robotica.html">Cirurgia Robótica</a></li>
+              <li><a href="microcirurgia-reconstrutiva.html">Microcirurgia Reconstrutiva</a></li>
+              <li><a href="sialoendoscopia.html">Sialoendoscopia</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#"><span>Exames</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="Videolaringoscopia.html">Videolaringoscopia</a></li>
+              <li><a href="ultrassonografia.html">Ultrassonografia</a></li>
+              <li>
+                <a href="puncao-aspirativa-biopsias.html">
+                  Punção aspirativa / Biópsias
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <!-- <li><a href="blog.html">BLOG</a></li> -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="https://wa.me/5581993524086" target="_blank" class="appointment-btn scrollto px-3 py-2" style="background-color: #3fbbc0 !important; position: relative; font-size: 12px;">
+         <i class="bx bxl-whatsapp" style="font-size: 25px; position: absolute; top: 4px; left: 4px;"></i>
+         <span class="ms-3">Agendar consulta</span>
+      </a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+
+  <main id="main">
+
+    <section style="padding-bottom: 0 !important;">
+      <div>
+        <div id="hero-banner" style="max-height: 350px;">
+              <div class="col-12 m-0 p-0 banner-hero px-3">
+                <div class="col-lg-8 mx-auto">
+                  <div>
+                    <br>
+                    <div class="mt-5">
+                      <p style="font-size: 12px;">Exames >> Videolaringoscopia</p>
+                    </div>
+                    <div class="mb-3">
+                      <h1>Videolaringoscopia</h1>
+                    </div>
+                    <div>
+                      <p class="font-post-1 mb-1 invisible" style="color: #fff;">
+                        O câncer de tireoide se origina nas células foliculares ou parafoliculares (células C) da tireoide e pode se manifestar de diferentes formas, sendo os tipos mais comuns o carcinoma papilífero e o carcinoma folicular.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+  
+    </section>
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div data-aos="fade-up">
+        <div>
+
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="px-2">
+
+                <div>
+                  <div class="col-lg-5" hidden="">
+                    <div class="input-group mb-3 artigo">
+                      <input type="text" class="form-control" placeholder="encontrar artigo" aria-label="Username" aria-describedby="basic-addon1">
+                      <div class="input-group-prepend">
+                        <span class="btn btn-primary" id="basic-addon1">Buscar</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- div class="pb-3">
+                  <h2 style="border-bottom: 2px solid #3fbbc0;" class="pb-1">Tireoide</h2>
+                  <div class="py-2">
+                    <h5 style="opacity: 0.7;">Publicado em 13/05/2024</h5>
+                  </div>
+                </div -->
+   
+            <h4>
+              Conheça a Videolaringoscopia e Estroboscopia: A Importância do Detalhe na Investigação da Laringe
+            </h4>
+            
+              <p>
+
+                <div class="col-lg-12 mb-2">
+                    <img src="image/videoLaringo.jpeg" class="img-fluid">
+                </div>
+                <p class="font-post-2">
+                  A videolaringoscopia é uma ferramenta avançada na análise da laringe, e associado à estroboscopia, que aprimora ainda mais a compreensão dinâmica do movimento vocal. Vamos aprofundar-nos nesses procedimentos, destacando suas indicações e por que às vezes é crucial contar com um Cirurgião de Cabeça e Pescoço, especialmente em casos confirmados ou suspeitos de câncer de Laringe.
+                </p>
+                <p class="font-post-2">
+                  <b>Videolaringoscopia:</b> Uma Visão Clara da Laringe A videolaringoscopia utiliza um laringoscópio que pode ser rígido ou flexível equipado em uma câmera de vídeo para examinar visualmente as estruturas da laringe. Essa técnica é essencial para avaliar, diagnosticar e monitorar uma variedade de condições, incluindo nódulos nas cordas vocais, pólipos, tumores e alterações anatômicas. As indicações para a videolaringoscopia incluem distúrbios da voz, em especial rouquidão persistente há mais de duas semanas, tosse crônica, dificuldades na deglutição e avaliação pré e pós-operatória em cirurgias de cabeça e pescoço.
+                </p>
+
+                <p class="font-post-2">
+                  <b>Videolaringoscopia com Estroboscopia:</b> Iluminando o Movimento Vocal Ao adicionar a estroboscopia, a videolaringoscopia evolui para uma ferramenta dinâmica. A estroboscopia sincroniza flashes de luz com a frequência vibratória das cordas vocais, permitindo uma análise detalhada do movimento vocal. Essa técnica é especialmente valiosa para avaliar distúrbios da voz, proporcionando insights cruciais sobre a função vocal.
+                </p>
+
+              </p>
+
+
+                </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section data-aos="fade-up" class="color-base bg-dark" style="color: #fff; padding: 80px 0; font-size: 22px;">
+      <div class="col-lg-8 px-3 mx-auto container">  
+        <h2>
+          Por que Escolher um Cirurgião de Cabeça e Pescoço?
+        </h2>
+        <div class="mb-3">
+          <ol>
+            <li class="mb-3">
+              <b>Especialização Avançada:</b> Os Cirurgiões de Cabeça e Pescoço possuem treinamento específico para abordar condições da laringe, incluindo câncer. Sua expertise garante uma avaliação precisa e a aplicação de protocolos de tratamento especializados.
+            </li>
+            <li class="mb-3">
+              <b>Conhecimento Técnico:</b>   Ao lidar com casos de câncer de laringe, a experiência do Cirurgião de Cabeça e Pescoço é crucial. Eles compreendem a complexidade da anatomia da região e são habilidosos  e treinados para realizar procedimentos cirúrgicos específicos para garantir o tratamento adequado.
+            </li>
+            <li class="mb-3">
+              <b>Coordenação Multidisciplinar:</b> Os Cirurgiões de Cabeça e Pescoço trabalham em estreita colaboração com outros profissionais de saúde, como oncologistas e fonoaudiólogos, para oferecer uma abordagem abrangente no tratamento do câncer de laringe.
+            </li>
+            <li class="mb-3">
+              <b>Avaliação Pré e Pós-Operatória:</b> Em cirurgias de cabeça e pescoço, a videolaringoscopia é frequentemente usada para avaliação pré-operatória, ajudando na determinação do plano cirúrgico, e no acompanhamento pós-operatório para garantir a eficácia do procedimento.
+            </li>
+          </ol>
+        </div>
+      </div>
+    
+    </section>
+
+    <br><br>
+    <section data-aos="fade-up">
+      <div>
+        <div class="col-lg-8 mx-auto px-3">
+          <h4>Agende sua Videolaringoscopia com Confiança</h4>
+          <p class="font-post-2">
+            Se você enfrenta desafios vocais, dificuldades na deglutição ou outros sintomas relacionados à laringe, a videolaringoscopia é um exame essencial. Agende sua consulta para discutir suas preocupações, e estarei pronto para conduzir essas técnicas avançadas de forma cuidadosa e precisa.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+<br><br><br><br>
+
+
+
+ <!-- ======= Testimonials Section ======= --
+    <section id="testimonials" class="testimonials mt-4 p-0">
+      <div class="px-2 px-lg-5" data-aos="fade-up">
+
+        <div class="box-blog-title mb-4">
+            <div class="color-base blog-title m-0 p-2 px-5 " style="display: inline-block;">
+              <h5 class="m-0">BLOG</h5>
+            </div>
+          </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div>
+                <div style="height: 200px; overflow: hidden; position: relative;">
+                  <img src="image/alteracao-cordas-vocais.png" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+
+                    <div class="col-12 p-1 shadow-noticia"></div>
+                    <div class="row col-12">
+                      <div class="col-7">
+                        Publicado em 13/05/2024
+                      </div>
+                      <div class="col-5 text-end">
+                        Gostos 4
+                      </div>
+                    </div>
+                </div>
+                <div class="pt-1 box-blog-artigo">
+                  <strong>9 sintomas de alterações nas pregas vocais</strong>
+                  <p class="mb-1">
+                    As pregas vocais, popularmente conhecidas como cordas vocais, estão localizadas...
+                  <div class="color-base btn mt-3" style="font-size: 14px; border-radius: 0 !important;">
+                    <i>Ler mais</i>
+                  </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div>
+                <div style="height: 200px; overflow: hidden; position: relative;">
+                  <img src="image/hashimoto.png" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+
+                  <div class="col-12 p-1 shadow-noticia"></div>
+                    <div class="row col-12">
+                      <div class="col-7">
+                        Publicado em 13/05/2024
+                      </div>
+                      <div class="col-5 text-end">
+                        Gostos 4
+                      </div>
+                    </div>
+                </div>
+                <div class="pt-1 box-blog-artigo">
+                  <strong>O que é a tireoidite de Hashimoto?</strong>
+                  <p class="mb-1">
+                    A glândula tireoide desempenha funções muito importantes para manter o bom funcionamento do organismo....
+                 <div class="color-base btn mt-3" style="font-size: 14px; border-radius: 0 !important;">
+                    <i>Ler mais</i>
+                  </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div>
+                <div style="height: 200px; overflow: hidden; position: relative;">
+                  <img src="image/cancer-laringe.jpg" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+
+                  <div class="col-12 p-1 shadow-noticia"></div>
+                    <div class="row col-12">
+                      <div class="col-7">
+                        Publicado em 13/05/2024
+                      </div>
+                      <div class="col-5 text-end">
+                        Gostos 4
+                      </div>
+                    </div>
+                </div>
+                <div class="pt-1 box-blog-artigo">
+                  <strong>Como prevenir o câncer de laringe</strong>
+                  <p class="mb-1">
+                    Segundo a Organização Mundial da Saúde (OMS), o Brasil é um dos países com maior incidência de câncer de laringe...
+                  <div class="color-base btn mt-3" style="font-size: 14px; border-radius: 0 !important;">
+                    <i>Ler mais</i>
+                  </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>!-- End Testimonials Section -->
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="text-center">
+            <div class="footer-info">
+              <div class="text-center">
+                <h5>Dr. Carlos Alberto Barros</h5>
+                <div style="font-size: 18px;">
+                  Cirurgião de Cabeça e Pescoço <br>
+                  CRM-PE: 18069 | RQE: 3263
+                </div>
+              </div>
+              </p>
+              <div class="social-links mt-3">
+                <a href="https://wa.me/5581993524086" target="_blank" class="facebook"><i class="bx bxl-whatsapp"></i></a>
+
+                <a href="https://www.facebook.com/share/Gqetdm2xzKkzsk1R/?mibextid=LQQJ4d" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+                
+                <a href="https://www.instagram.com/drcarlos.cabecaepescoco?igsh=MWs2ejAxd3dyMGk1bQ%3D%3D&utm_source=qr" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+                
+                <a href="https://www.linkedin.com/in/carlos-alberto-cavalcante-de-barros-junior-16a28b2a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>2024</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://devaholic.ao">devaholic</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const btnDrops = document.querySelectorAll('.text-btn-drop');
+
+    btnDrops.forEach(function(el) {
+      const content = el.nextElementSibling;
+      const seta = el.querySelector('.seta');
+
+      el.addEventListener('click', function() {
+        // Expandir/recolher o conteúdo
+        content.classList.toggle('expandido');
+        content.classList.toggle('recolhido');
+        seta.classList.toggle('seta-down')
+      });
+    })
+  });
+</script>
+
+<script src="assets/splide/dist/js/splide.min.js"></script>
+<script src="assets/splide-extension-auto-scroll-master/dist/js/splide-extension-auto-scroll.min.js"></script>
+
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function() {
+    var splide = new Splide('.splide', {
+        type: 'loop',
+        drag: 'free',
+        focus: 'center',
+        pagination: false,
+        perPage: 6,
+        autoScroll: {
+            speed: 1,
+            //pauseOnHover: false //Disable pause on hover
+        },
+        breakpoints: {
+            1200: {
+                perPage: 10,
+            },
+            992: {
+                perPage: 8,
+            },
+            768: {
+                perPage: 5,
+            },
+            576: {
+                perPage: 3,
+            }
+        }
+    });
+
+    splide.mount(window.splide.Extensions);
+});
+
+</script>
+
+</body>
+
+</html>
